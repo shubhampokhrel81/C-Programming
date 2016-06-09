@@ -21,7 +21,7 @@ int main()
 	}
    else
    {
-      for ( i = pos - 1 ; i < n - 1 ; i++ )
+      for ( i = pos - 1 ; i < n - 1 ; i++)
 	{ 
         	del[i] = del[i+1];
  	}
