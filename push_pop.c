@@ -19,7 +19,7 @@ void push(int item) {
    st.s[st.top] = item;
 }
  
-int stempty() {
+ int stempty() {
    if (st.top == -1)
       return 1;
    else
